@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0168F4211A08D58E009842B2 /* SYNNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNNetworkManager.h; sourceTree = "<group>"; };
 		0168F4221A08D58E009842B2 /* SYNNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNNetworkManager.m; sourceTree = "<group>"; };
-		01BBE72B1A083DD900862273 /* SYNTwitterStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYNTwitterStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BBE72B1A083DD900862273 /* TwitterStreamObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterStreamObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01BBE72F1A083DD900862273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01BBE7301A083DD900862273 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01BBE7321A083DD900862273 /* SYNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYNAppDelegate.h; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		01BBE7391A083DD900862273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01BBE73B1A083DD900862273 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		01BBE73E1A083DD900862273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		01BBE7441A083DD900862273 /* SYNTwitterStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYNTwitterStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BBE7441A083DD900862273 /* TwitterStreamObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterStreamObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01BBE7491A083DD900862273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01BBE74A1A083DD900862273 /* SYNTweetBufferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYNTweetBufferTests.m; sourceTree = "<group>"; };
 		01BBE75B1A083EF000862273 /* SYNTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNTweet.h; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		01BBE7221A083DD900862273 = {
 			isa = PBXGroup;
 			children = (
-				01BBE72D1A083DD900862273 /* SYNTwitterStream */,
-				01BBE7471A083DD900862273 /* SYNTwitterStreamTests */,
+				01BBE72D1A083DD900862273 /* TwitterStreamObjC */,
+				01BBE7471A083DD900862273 /* TwitterStreamObjCTests */,
 				01BBE72C1A083DD900862273 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,13 +104,13 @@
 		01BBE72C1A083DD900862273 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01BBE72B1A083DD900862273 /* SYNTwitterStream.app */,
-				01BBE7441A083DD900862273 /* SYNTwitterStreamTests.xctest */,
+				01BBE72B1A083DD900862273 /* TwitterStreamObjC.app */,
+				01BBE7441A083DD900862273 /* TwitterStreamObjCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		01BBE72D1A083DD900862273 /* SYNTwitterStream */ = {
+		01BBE72D1A083DD900862273 /* TwitterStreamObjC */ = {
 			isa = PBXGroup;
 			children = (
 				01BBE7541A083E1400862273 /* Source */,
@@ -118,6 +118,7 @@
 				01BBE72E1A083DD900862273 /* Supporting Files */,
 				01BF7EB81A1368960028A1A0 /* Frameworks */,
 			);
+			name = TwitterStreamObjC;
 			path = SYNTwitterStream;
 			sourceTree = "<group>";
 		};
@@ -130,12 +131,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		01BBE7471A083DD900862273 /* SYNTwitterStreamTests */ = {
+		01BBE7471A083DD900862273 /* TwitterStreamObjCTests */ = {
 			isa = PBXGroup;
 			children = (
 				01BBE74A1A083DD900862273 /* SYNTweetBufferTests.m */,
 				01BBE7481A083DD900862273 /* Supporting Files */,
 			);
+			name = TwitterStreamObjCTests;
 			path = SYNTwitterStreamTests;
 			sourceTree = "<group>";
 		};
@@ -244,9 +246,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01BBE72A1A083DD900862273 /* SYNTwitterStream */ = {
+		01BBE72A1A083DD900862273 /* TwitterStreamObjC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01BBE74E1A083DD900862273 /* Build configuration list for PBXNativeTarget "SYNTwitterStream" */;
+			buildConfigurationList = 01BBE74E1A083DD900862273 /* Build configuration list for PBXNativeTarget "TwitterStreamObjC" */;
 			buildPhases = (
 				01BBE7271A083DD900862273 /* Sources */,
 				01BBE7281A083DD900862273 /* Frameworks */,
@@ -256,14 +258,14 @@
 			);
 			dependencies = (
 			);
-			name = SYNTwitterStream;
+			name = TwitterStreamObjC;
 			productName = SYNTwitterStream;
-			productReference = 01BBE72B1A083DD900862273 /* SYNTwitterStream.app */;
+			productReference = 01BBE72B1A083DD900862273 /* TwitterStreamObjC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		01BBE7431A083DD900862273 /* SYNTwitterStreamTests */ = {
+		01BBE7431A083DD900862273 /* TwitterStreamObjCTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01BBE7511A083DD900862273 /* Build configuration list for PBXNativeTarget "SYNTwitterStreamTests" */;
+			buildConfigurationList = 01BBE7511A083DD900862273 /* Build configuration list for PBXNativeTarget "TwitterStreamObjCTests" */;
 			buildPhases = (
 				01BBE7401A083DD900862273 /* Sources */,
 				01BBE7411A083DD900862273 /* Frameworks */,
@@ -274,9 +276,9 @@
 			dependencies = (
 				01BBE7461A083DD900862273 /* PBXTargetDependency */,
 			);
-			name = SYNTwitterStreamTests;
+			name = TwitterStreamObjCTests;
 			productName = SYNTwitterStreamTests;
-			productReference = 01BBE7441A083DD900862273 /* SYNTwitterStreamTests.xctest */;
+			productReference = 01BBE7441A083DD900862273 /* TwitterStreamObjCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -297,7 +299,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01BBE7261A083DD900862273 /* Build configuration list for PBXProject "SYNTwitterStream" */;
+			buildConfigurationList = 01BBE7261A083DD900862273 /* Build configuration list for PBXProject "TwitterStreamObjC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -310,8 +312,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01BBE72A1A083DD900862273 /* SYNTwitterStream */,
-				01BBE7431A083DD900862273 /* SYNTwitterStreamTests */,
+				01BBE72A1A083DD900862273 /* TwitterStreamObjC */,
+				01BBE7431A083DD900862273 /* TwitterStreamObjCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -368,7 +370,7 @@
 /* Begin PBXTargetDependency section */
 		01BBE7461A083DD900862273 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01BBE72A1A083DD900862273 /* SYNTwitterStream */;
+			target = 01BBE72A1A083DD900862273 /* TwitterStreamObjC */;
 			targetProxy = 01BBE7451A083DD900862273 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -475,10 +477,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SYNTwitterStream/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TwitterStreamObjC;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -487,10 +490,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SYNTwitterStream/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TwitterStreamObjC;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -510,8 +514,8 @@
 				INFOPLIST_FILE = SYNTwitterStreamTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYNTwitterStream.app/SYNTwitterStream";
+				PRODUCT_NAME = TwitterStreamObjCTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwitterStreamObjC.app/TwitterStreamObjC";
 			};
 			name = Debug;
 		};
@@ -526,15 +530,15 @@
 				INFOPLIST_FILE = SYNTwitterStreamTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYNTwitterStream.app/SYNTwitterStream";
+				PRODUCT_NAME = TwitterStreamObjCTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwitterStreamObjC.app/TwitterStreamObjC";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01BBE7261A083DD900862273 /* Build configuration list for PBXProject "SYNTwitterStream" */ = {
+		01BBE7261A083DD900862273 /* Build configuration list for PBXProject "TwitterStreamObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01BBE74C1A083DD900862273 /* Debug */,
@@ -543,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01BBE74E1A083DD900862273 /* Build configuration list for PBXNativeTarget "SYNTwitterStream" */ = {
+		01BBE74E1A083DD900862273 /* Build configuration list for PBXNativeTarget "TwitterStreamObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01BBE74F1A083DD900862273 /* Debug */,
@@ -552,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01BBE7511A083DD900862273 /* Build configuration list for PBXNativeTarget "SYNTwitterStreamTests" */ = {
+		01BBE7511A083DD900862273 /* Build configuration list for PBXNativeTarget "TwitterStreamObjCTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01BBE7521A083DD900862273 /* Debug */,

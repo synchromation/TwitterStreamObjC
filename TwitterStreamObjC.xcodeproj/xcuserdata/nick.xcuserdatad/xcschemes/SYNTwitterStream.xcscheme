@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "01BBE72A1A083DD900862273"
-               BuildableName = "SYNTwitterStream.app"
-               BlueprintName = "SYNTwitterStream"
-               ReferencedContainer = "container:SYNTwitterStream.xcodeproj">
+               BuildableName = "TwitterStreamObjC.app"
+               BlueprintName = "TwitterStreamObjC"
+               ReferencedContainer = "container:TwitterStreamObjC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "01BBE7431A083DD900862273"
-               BuildableName = "SYNTwitterStreamTests.xctest"
-               BlueprintName = "SYNTwitterStreamTests"
-               ReferencedContainer = "container:SYNTwitterStream.xcodeproj">
+               BuildableName = "TwitterStreamObjCTests.xctest"
+               BlueprintName = "TwitterStreamObjCTests"
+               ReferencedContainer = "container:TwitterStreamObjC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "01BBE7431A083DD900862273"
-               BuildableName = "SYNTwitterStreamTests.xctest"
-               BlueprintName = "SYNTwitterStreamTests"
-               ReferencedContainer = "container:SYNTwitterStream.xcodeproj">
+               BuildableName = "TwitterStreamObjCTests.xctest"
+               BlueprintName = "TwitterStreamObjCTests"
+               ReferencedContainer = "container:TwitterStreamObjC.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01BBE72A1A083DD900862273"
-            BuildableName = "SYNTwitterStream.app"
-            BlueprintName = "SYNTwitterStream"
-            ReferencedContainer = "container:SYNTwitterStream.xcodeproj">
+            BuildableName = "TwitterStreamObjC.app"
+            BlueprintName = "TwitterStreamObjC"
+            ReferencedContainer = "container:TwitterStreamObjC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01BBE72A1A083DD900862273"
-            BuildableName = "SYNTwitterStream.app"
-            BlueprintName = "SYNTwitterStream"
-            ReferencedContainer = "container:SYNTwitterStream.xcodeproj">
+            BuildableName = "TwitterStreamObjC.app"
+            BlueprintName = "TwitterStreamObjC"
+            ReferencedContainer = "container:TwitterStreamObjC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01BBE72A1A083DD900862273"
-            BuildableName = "SYNTwitterStream.app"
-            BlueprintName = "SYNTwitterStream"
-            ReferencedContainer = "container:SYNTwitterStream.xcodeproj">
+            BuildableName = "TwitterStreamObjC.app"
+            BlueprintName = "TwitterStreamObjC"
+            ReferencedContainer = "container:TwitterStreamObjC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
