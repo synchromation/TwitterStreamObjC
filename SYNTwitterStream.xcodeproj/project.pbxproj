@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0168F4231A08D58E009842B2 /* SYNNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0168F4221A08D58E009842B2 /* SYNNetworkManager.m */; };
+		0168F4241A08D58E009842B2 /* SYNNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0168F4221A08D58E009842B2 /* SYNNetworkManager.m */; };
+		01BBE7311A083DD900862273 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE7301A083DD900862273 /* main.m */; };
+		01BBE7341A083DD900862273 /* SYNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE7331A083DD900862273 /* SYNAppDelegate.m */; };
+		01BBE7371A083DD900862273 /* SYNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE7361A083DD900862273 /* SYNMainViewController.m */; };
+		01BBE73A1A083DD900862273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BBE7381A083DD900862273 /* Main.storyboard */; };
+		01BBE73C1A083DD900862273 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BBE73B1A083DD900862273 /* Images.xcassets */; };
+		01BBE73F1A083DD900862273 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01BBE73D1A083DD900862273 /* LaunchScreen.xib */; };
+		01BBE74B1A083DD900862273 /* SYNTweetBufferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE74A1A083DD900862273 /* SYNTweetBufferTests.m */; };
+		01BBE75D1A083EF000862273 /* SYNTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE75C1A083EF000862273 /* SYNTweet.m */; };
+		01BBE75E1A083EF000862273 /* SYNTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE75C1A083EF000862273 /* SYNTweet.m */; };
+		01BBE7611A083F2B00862273 /* SYNTweetBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE7601A083F2B00862273 /* SYNTweetBuffer.m */; };
+		01BBE7621A083F2B00862273 /* SYNTweetBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE7601A083F2B00862273 /* SYNTweetBuffer.m */; };
+		01BBE7651A084CF900862273 /* NSDictionary+Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE7641A084CF900862273 /* NSDictionary+Defaults.m */; };
+		01BBE7661A084CF900862273 /* NSDictionary+Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE7641A084CF900862273 /* NSDictionary+Defaults.m */; };
+		01BF7EB51A1367810028A1A0 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BF7EB41A1367810028A1A0 /* Accounts.framework */; };
+		01BF7EB71A1367890028A1A0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BF7EB61A1367890028A1A0 /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01BBE7451A083DD900862273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01BBE7231A083DD900862273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01BBE72A1A083DD900862273;
+			remoteInfo = SYNTwitterStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0168F4211A08D58E009842B2 /* SYNNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNNetworkManager.h; sourceTree = "<group>"; };
+		0168F4221A08D58E009842B2 /* SYNNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNNetworkManager.m; sourceTree = "<group>"; };
+		01BBE72B1A083DD900862273 /* SYNTwitterStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYNTwitterStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BBE72F1A083DD900862273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BBE7301A083DD900862273 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01BBE7321A083DD900862273 /* SYNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYNAppDelegate.h; sourceTree = "<group>"; };
+		01BBE7331A083DD900862273 /* SYNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYNAppDelegate.m; sourceTree = "<group>"; };
+		01BBE7351A083DD900862273 /* SYNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYNMainViewController.h; sourceTree = "<group>"; };
+		01BBE7361A083DD900862273 /* SYNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYNMainViewController.m; sourceTree = "<group>"; };
+		01BBE7391A083DD900862273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01BBE73B1A083DD900862273 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01BBE73E1A083DD900862273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		01BBE7441A083DD900862273 /* SYNTwitterStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYNTwitterStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BBE7491A083DD900862273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BBE74A1A083DD900862273 /* SYNTweetBufferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYNTweetBufferTests.m; sourceTree = "<group>"; };
+		01BBE75B1A083EF000862273 /* SYNTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNTweet.h; sourceTree = "<group>"; };
+		01BBE75C1A083EF000862273 /* SYNTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNTweet.m; sourceTree = "<group>"; };
+		01BBE75F1A083F2B00862273 /* SYNTweetBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNTweetBuffer.h; sourceTree = "<group>"; };
+		01BBE7601A083F2B00862273 /* SYNTweetBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNTweetBuffer.m; sourceTree = "<group>"; };
+		01BBE7631A084CF900862273 /* NSDictionary+Defaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Defaults.h"; sourceTree = "<group>"; };
+		01BBE7641A084CF900862273 /* NSDictionary+Defaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Defaults.m"; sourceTree = "<group>"; };
+		01BBE7681A08563B00862273 /* SYNConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYNConstants.h; sourceTree = "<group>"; };
+		01BF7EB41A1367810028A1A0 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		01BF7EB61A1367890028A1A0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01BBE7281A083DD900862273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BF7EB71A1367890028A1A0 /* Social.framework in Frameworks */,
+				01BF7EB51A1367810028A1A0 /* Accounts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BBE7411A083DD900862273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0168F4201A08D53F009842B2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0168F4211A08D58E009842B2 /* SYNNetworkManager.h */,
+				0168F4221A08D58E009842B2 /* SYNNetworkManager.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		01BBE7221A083DD900862273 = {
+			isa = PBXGroup;
+			children = (
+				01BBE72D1A083DD900862273 /* SYNTwitterStream */,
+				01BBE7471A083DD900862273 /* SYNTwitterStreamTests */,
+				01BBE72C1A083DD900862273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01BBE72C1A083DD900862273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE72B1A083DD900862273 /* SYNTwitterStream.app */,
+				01BBE7441A083DD900862273 /* SYNTwitterStreamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01BBE72D1A083DD900862273 /* SYNTwitterStream */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE7541A083E1400862273 /* Source */,
+				01BBE7551A083E2600862273 /* Resources */,
+				01BBE72E1A083DD900862273 /* Supporting Files */,
+				01BF7EB81A1368960028A1A0 /* Frameworks */,
+			);
+			path = SYNTwitterStream;
+			sourceTree = "<group>";
+		};
+		01BBE72E1A083DD900862273 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE72F1A083DD900862273 /* Info.plist */,
+				01BBE7301A083DD900862273 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01BBE7471A083DD900862273 /* SYNTwitterStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE74A1A083DD900862273 /* SYNTweetBufferTests.m */,
+				01BBE7481A083DD900862273 /* Supporting Files */,
+			);
+			path = SYNTwitterStreamTests;
+			sourceTree = "<group>";
+		};
+		01BBE7481A083DD900862273 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE7491A083DD900862273 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01BBE7541A083E1400862273 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE7691A08564100862273 /* App Constants */,
+				01BBE7581A083E4900862273 /* App Delegate */,
+				01BBE7671A084E3100862273 /* Categories */,
+				01BBE75A1A083E5D00862273 /* Data Model */,
+				0168F4201A08D53F009842B2 /* Networking */,
+				01BBE7591A083E5300862273 /* View Controllers */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		01BBE7551A083E2600862273 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE7561A083E3500862273 /* UI */,
+				01BBE7571A083E3F00862273 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		01BBE7561A083E3500862273 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE7381A083DD900862273 /* Main.storyboard */,
+				01BBE73D1A083DD900862273 /* LaunchScreen.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		01BBE7571A083E3F00862273 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE73B1A083DD900862273 /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		01BBE7581A083E4900862273 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE7321A083DD900862273 /* SYNAppDelegate.h */,
+				01BBE7331A083DD900862273 /* SYNAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		01BBE7591A083E5300862273 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE7351A083DD900862273 /* SYNMainViewController.h */,
+				01BBE7361A083DD900862273 /* SYNMainViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		01BBE75A1A083E5D00862273 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE75B1A083EF000862273 /* SYNTweet.h */,
+				01BBE75C1A083EF000862273 /* SYNTweet.m */,
+				01BBE75F1A083F2B00862273 /* SYNTweetBuffer.h */,
+				01BBE7601A083F2B00862273 /* SYNTweetBuffer.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		01BBE7671A084E3100862273 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE7631A084CF900862273 /* NSDictionary+Defaults.h */,
+				01BBE7641A084CF900862273 /* NSDictionary+Defaults.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		01BBE7691A08564100862273 /* App Constants */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE7681A08563B00862273 /* SYNConstants.h */,
+			);
+			name = "App Constants";
+			sourceTree = "<group>";
+		};
+		01BF7EB81A1368960028A1A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01BF7EB61A1367890028A1A0 /* Social.framework */,
+				01BF7EB41A1367810028A1A0 /* Accounts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01BBE72A1A083DD900862273 /* SYNTwitterStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BBE74E1A083DD900862273 /* Build configuration list for PBXNativeTarget "SYNTwitterStream" */;
+			buildPhases = (
+				01BBE7271A083DD900862273 /* Sources */,
+				01BBE7281A083DD900862273 /* Frameworks */,
+				01BBE7291A083DD900862273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYNTwitterStream;
+			productName = SYNTwitterStream;
+			productReference = 01BBE72B1A083DD900862273 /* SYNTwitterStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01BBE7431A083DD900862273 /* SYNTwitterStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01BBE7511A083DD900862273 /* Build configuration list for PBXNativeTarget "SYNTwitterStreamTests" */;
+			buildPhases = (
+				01BBE7401A083DD900862273 /* Sources */,
+				01BBE7411A083DD900862273 /* Frameworks */,
+				01BBE7421A083DD900862273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BBE7461A083DD900862273 /* PBXTargetDependency */,
+			);
+			name = SYNTwitterStreamTests;
+			productName = SYNTwitterStreamTests;
+			productReference = 01BBE7441A083DD900862273 /* SYNTwitterStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01BBE7231A083DD900862273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Synchromation;
+				TargetAttributes = {
+					01BBE72A1A083DD900862273 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					01BBE7431A083DD900862273 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 01BBE72A1A083DD900862273;
+					};
+				};
+			};
+			buildConfigurationList = 01BBE7261A083DD900862273 /* Build configuration list for PBXProject "SYNTwitterStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01BBE7221A083DD900862273;
+			productRefGroup = 01BBE72C1A083DD900862273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01BBE72A1A083DD900862273 /* SYNTwitterStream */,
+				01BBE7431A083DD900862273 /* SYNTwitterStreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01BBE7291A083DD900862273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BBE73A1A083DD900862273 /* Main.storyboard in Resources */,
+				01BBE73F1A083DD900862273 /* LaunchScreen.xib in Resources */,
+				01BBE73C1A083DD900862273 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BBE7421A083DD900862273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01BBE7271A083DD900862273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BBE7651A084CF900862273 /* NSDictionary+Defaults.m in Sources */,
+				0168F4231A08D58E009842B2 /* SYNNetworkManager.m in Sources */,
+				01BBE75D1A083EF000862273 /* SYNTweet.m in Sources */,
+				01BBE7371A083DD900862273 /* SYNMainViewController.m in Sources */,
+				01BBE7611A083F2B00862273 /* SYNTweetBuffer.m in Sources */,
+				01BBE7341A083DD900862273 /* SYNAppDelegate.m in Sources */,
+				01BBE7311A083DD900862273 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01BBE7401A083DD900862273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BBE7661A084CF900862273 /* NSDictionary+Defaults.m in Sources */,
+				01BBE7621A083F2B00862273 /* SYNTweetBuffer.m in Sources */,
+				01BBE75E1A083EF000862273 /* SYNTweet.m in Sources */,
+				0168F4241A08D58E009842B2 /* SYNNetworkManager.m in Sources */,
+				01BBE74B1A083DD900862273 /* SYNTweetBufferTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01BBE7461A083DD900862273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BBE72A1A083DD900862273 /* SYNTwitterStream */;
+			targetProxy = 01BBE7451A083DD900862273 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01BBE7381A083DD900862273 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BBE7391A083DD900862273 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01BBE73D1A083DD900862273 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01BBE73E1A083DD900862273 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01BBE74C1A083DD900862273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01BBE74D1A083DD900862273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01BBE74F1A083DD900862273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYNTwitterStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		01BBE7501A083DD900862273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYNTwitterStream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		01BBE7521A083DD900862273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SYNTwitterStreamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYNTwitterStream.app/SYNTwitterStream";
+			};
+			name = Debug;
+		};
+		01BBE7531A083DD900862273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SYNTwitterStreamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYNTwitterStream.app/SYNTwitterStream";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01BBE7261A083DD900862273 /* Build configuration list for PBXProject "SYNTwitterStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BBE74C1A083DD900862273 /* Debug */,
+				01BBE74D1A083DD900862273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BBE74E1A083DD900862273 /* Build configuration list for PBXNativeTarget "SYNTwitterStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BBE74F1A083DD900862273 /* Debug */,
+				01BBE7501A083DD900862273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01BBE7511A083DD900862273 /* Build configuration list for PBXNativeTarget "SYNTwitterStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01BBE7521A083DD900862273 /* Debug */,
+				01BBE7531A083DD900862273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01BBE7231A083DD900862273 /* Project object */;
+}
